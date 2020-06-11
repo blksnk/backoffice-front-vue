@@ -1,0 +1,22 @@
+$unit: 1.5rem;
+$spacing: $unit * 2 / 3;
+
+$color_1: #ffcdb2;
+$color_2: #ffb4a2;
+$color_3: #e5989b;
+$color_4: #b5838d;
+$color_5: #6d6875;
+$color_gray: #3d3d3d;
+$color_black: #212121;
+$color_white: #f1f1f1;
+
+:export {
+  color_1: $color_1;
+  color_2: $color_2;
+  color_3: $color_3;
+  color_4: $color_4;
+  color_5: $color_5;
+  color_gray: $color_gray;
+  color_black: $color_black;
+  color_white: $color_white;
+}

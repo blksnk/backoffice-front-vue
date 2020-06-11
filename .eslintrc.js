@@ -5,7 +5,7 @@ module.exports = {
   },
   extends: [
     'plugin:vue/essential',
-    '@vue/airbnb',
+    // '@vue/airbnb',
     '@vue/typescript/recommended',
   ],
   parserOptions: {
@@ -14,5 +14,7 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'implicit-arrow-linebreak': 'off',
+    'arrow-body-style': 'off',
   },
 };
